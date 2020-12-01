@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 DWLINK='https://archive.org/download/PowerPointViewer_201801/PowerPointViewer.exe'
 set -e
