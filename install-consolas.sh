@@ -14,6 +14,7 @@ wget -q --show-progress --progress=bar:force $DWLINK
 
 if [ ! $(command -v cabextract) ]; then
     echo "cabextract not found! Please install it."
+    exit 1
 fi
 cabextract -q -L -F ppviewer.cab PowerPointViewer.exe
 cabextract -q -F *.TTF ppviewer.cab
